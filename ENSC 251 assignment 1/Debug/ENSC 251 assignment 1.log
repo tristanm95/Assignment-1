@@ -1,25 +1,21 @@
-﻿Build started 30/09/2014 4:31:26 PM.
-     1>Project "C:\Users\tristanm\documents\visual studio 2010\Projects\ENSC 251 assignment 1\ENSC 251 assignment 1\ENSC 251 assignment 1.vcxproj" on node 2 (build target(s)).
+﻿Build started 04/10/2014 3:29:03 PM.
+     1>Project "H:\ENSC 251\Assignment-1\ENSC 251 assignment 1\ENSC 251 assignment 1.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\ENSC 251 assignment 1.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\cpp files\Part 3\Sphere.cpp"
-         Sphere.cpp
-     1>c:\users\tristanm\documents\visual studio 2010\projects\ensc 251 assignment 1\cpp files\part 3\sphere.cpp(27): warning C4305: 'initializing' : truncation from 'double' to 'const float'
-     1>c:\users\tristanm\documents\visual studio 2010\projects\ensc 251 assignment 1\cpp files\part 3\sphere.cpp(57): error C2236: unexpected 'class' 'Sphere'. Did you forget a ';'?
-     1>c:\users\tristanm\documents\visual studio 2010\projects\ensc 251 assignment 1\cpp files\part 3\sphere.cpp(57): error C2143: syntax error : missing ';' before '{'
-     1>c:\users\tristanm\documents\visual studio 2010\projects\ensc 251 assignment 1\cpp files\part 3\sphere.cpp(57): error C2447: '{' : missing function header (old-style formal list?)
-     1>c:\users\tristanm\documents\visual studio 2010\projects\ensc 251 assignment 1\cpp files\part 3\sphere.cpp(106): error C2065: 'Sphere' : undeclared identifier
-     1>c:\users\tristanm\documents\visual studio 2010\projects\ensc 251 assignment 1\cpp files\part 3\sphere.cpp(106): error C2146: syntax error : missing ';' before identifier 'c1'
-     1>c:\users\tristanm\documents\visual studio 2010\projects\ensc 251 assignment 1\cpp files\part 3\sphere.cpp(106): error C3861: 'c1': identifier not found
-     1>c:\users\tristanm\documents\visual studio 2010\projects\ensc 251 assignment 1\cpp files\part 3\sphere.cpp(107): error C2065: 'c1' : undeclared identifier
-     1>c:\users\tristanm\documents\visual studio 2010\projects\ensc 251 assignment 1\cpp files\part 3\sphere.cpp(107): error C2228: left of '.getLateralSurfaceArea' must have class/struct/union
-                 type is ''unknown-type''
-     1>c:\users\tristanm\documents\visual studio 2010\projects\ensc 251 assignment 1\cpp files\part 3\sphere.cpp(108): error C2065: 'c1' : undeclared identifier
-     1>c:\users\tristanm\documents\visual studio 2010\projects\ensc 251 assignment 1\cpp files\part 3\sphere.cpp(108): error C2228: left of '.getColor' must have class/struct/union
-                 type is ''unknown-type''
-     1>Done Building Project "C:\Users\tristanm\documents\visual studio 2010\Projects\ENSC 251 assignment 1\ENSC 251 assignment 1\ENSC 251 assignment 1.vcxproj" (build target(s)) -- FAILED.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\cpp files\Part 4\rational.cpp"
+         rational.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\ENSC 251\Assignment-1\Debug\ENSC 251 assignment 1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ENSC 251 assignment 1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\ENSC 251\Assignment-1\Debug\ENSC 251 assignment 1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\ENSC 251\Assignment-1\Debug\ENSC 251 assignment 1.lib" /MACHINE:X86 Debug\rational.obj
+         LINK : H:\ENSC 251\Assignment-1\Debug\ENSC 251 assignment 1.exe not found or not built by the last incremental link; performing full link
+         ENSC 251 assignment 1.vcxproj -> H:\ENSC 251\Assignment-1\Debug\ENSC 251 assignment 1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"H:\ENSC 251\Assignment-1\Debug\ENSC 251 assignment 1.exe;#1" /manifest "Debug\ENSC 251 assignment 1.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\ENSC 251 assignment 1.unsuccessfulbuild".
+         Touching "Debug\ENSC 251 assignment 1.lastbuildstate".
+     1>Done Building Project "H:\ENSC 251\Assignment-1\ENSC 251 assignment 1\ENSC 251 assignment 1.vcxproj" (build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.74
+Time Elapsed 00:00:02.00

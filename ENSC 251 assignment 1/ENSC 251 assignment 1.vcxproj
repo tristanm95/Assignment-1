@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\cpp files\Part 3\Sphere.cpp" />
+    <ClCompile Include="..\cpp files\Part 5\link.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8AB463CB-B59F-4810-A8B3-D5D1A1BDBDD8}</ProjectGuid>

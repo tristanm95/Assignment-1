@@ -24,42 +24,14 @@ NOTE :- Please use the following value for pi = 3.1416
 
 using namespace std;
 
-const float pi = 3.1416; //Please use this value of pi in your calculations.
+const double pi = 3.1416; //Please use this value of pi in your calculations.
 
-class Cone
-{
-private:
-	double radius;     // Data member (Variable)
-	double height;     // Data member (Variable)
-	double volume;     // Data member (Variable)
-	double latSA;	   // Data Member (Variable)
-	double diameter;   // Data Member (Variable)
-	
-public:
-	Cone(double r = 5.4, double h = 3.8) //Constructor to set default values to data members
-	{
-		radius = 5.4;
-		height = 3.8;
-	}
-	
-	double getLatSurfaceArea()
-	{
-		latSA = pi * radius * sqrt((height * height) + (radius * radius));
-		return latSA;
-	}
 
-	double getVolume()
-	{
-		volume = (1/3) * pi * (radius * radius) * height;
-	}
-
-}
 class Sphere {
 private:
    double radius;      // Data member (Variable)
    string color;       // Data member (Variable)
    double volume;	   // Data member (Variable)
-   double diameter;    // Data Member (Variable)
 
 public:
    // Constructor with default values for data members
@@ -83,48 +55,65 @@ public:
 	   return volume;
    }
    
-   double getDiameter() // Member function (accesor)
+   double getRadius() // Member function (accesor)
    {
-	   diameter = 2 * radius;
-	   return diameter;
+	   return radius;
    }
 
 };   // need to end the class declaration with a semi-colon
  
+class Cone
+{
+private:
+	double radius;     // Data member (Variable)
+	double height;     // Data member (Variable)
+	double volume;     // Data member (Variable)
+	double latSA;	   // Data Member (Variable)
 
-/////////////////////////////
+public:
+	Cone(double r = 5.4, double h = 3.8) //Constructor to set default values to data members
+	{
+		radius = r;
+		height = h;
+	}
+	
+	double getLatSurfaceArea() //Accessor Member Function - Calculate the Lateral Surface Area of the cone and return that value
+	{
+		latSA = pi * radius * sqrt((height * height) + (radius * radius));
+		return latSA;
+	}
 
-/* Create a new class called Cone  HERE   */
+	double getVolume() //Accessor Member Function - Calculate the Volume of the cone and return that value
+	{
+		volume = (1.0/3.0) * pi * (radius * radius) * height;
+		return volume;
+	}
 
-////////////////////////////
+	double getRadius()
+	{
+		return radius;
+	}
 
+};
 
 
 // Test driver function
 int main() {
+	double diameterS = 0;
+	double diameterC = 0;
+
    // Construct a Sphere instance
    Sphere c1(1.2, "blue");
-   cout << " Area=" << c1.getLateralSurfaceArea()
-        << " Color=" << c1.getColor() << endl;
+   Cone c2(5.4, 3.8); //Construct a new Cone instance
 
-   // Create a new Object  of Type Class Cone and initialize it with radius = 5.4 and height = 3.8
-   // Cone c2(5.4,3.8);
-   // where  radius of cone = 5.4
-   // height of cone = 3.8
-	//-------------------------------------------------
-	// INSERT CODE HERE  TO CALCULATE THE DIAMETER OF THE Sphere-----
+   diameterC = c2.getRadius() * 2; // Calculate diameter of the Cone
+   diameterS = c1.getRadius() * 2; // Calculate diameter of the Sphere (sphere.radius DOES NOT WORK, radius is a private member)
 
-    //---  Try Sphere.radius    
-    //---  Does it work ???
+   cout << diameterS << endl;
+   cout << c1.getVolume() << endl;
+   cout << c1.getLateralSurfaceArea() << endl;
+   cout << c2.getVolume() << endl;
+   cout << c2.getLatSurfaceArea();
 
-	//--------------------------------------------------
-
-
-   	//-------------------------------------------------
-	// INSERT CODE HERE  
-   
-	// CALL THE MEMBER FUNCTIONS CREATED EARLIER to print the output of Lateral surface area  and VOLUME of a SPHERE and CONE-----
-
-	//--------------------------------------------------
    return 0;
 }

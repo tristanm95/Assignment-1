@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\cpp files\Part 3\Sphere.cpp">
+    <ClCompile Include="..\cpp files\Part 5\link.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

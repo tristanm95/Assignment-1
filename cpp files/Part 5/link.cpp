@@ -36,9 +36,12 @@ public:
 
 	void del(LinkList *);
 	//delete function is used to delete an item from the link list.
+
+	int numCount(LinkList *);
+	//Counts the number of items in the linked list
 };
 // ifirst function is used to enter the element at the beginning of the link list
-LinkList * lLinkList::ifirst(LinkList *temp)
+LinkList * LinkList::ifirst(LinkList *temp)
 {
 	LinkList *newlink;
 	newlink=new LinkList;
@@ -47,6 +50,20 @@ LinkList * lLinkList::ifirst(LinkList *temp)
 	newlink->next=temp;
 	temp=newlink;
 	return temp;
+}
+
+//Counts the number of items in the linked list
+int LinkList::numCount(LinkList *temp)
+{
+	int listCount = 0;//Keeps count of the linked list items
+
+	while (temp != NULL)
+	{
+		listCount++;
+		temp = temp->next;
+	}
+
+	return listCount;
 }
 
 //traverse funcion -- traverses the link list and prints the numbers in a link list from start(head) to end(tail)
@@ -101,7 +118,7 @@ void main()
 	// in the order they are found in the file.
 	// Remove the "//" comment signals from the code below in front of the 
 	// '/*'  and  '*/' symbols to comment the code below and get started.
-	// /*  
+	/*  
 	while(1)
 	{
 		cout<<"**************** LINK LIST (Only For Integer) ****************\n\n";
@@ -127,10 +144,9 @@ void main()
 
 	
 	}
-	// */
+	*/
 
 	// INSERT YOUR CODE HERE
-	
 
 }
 

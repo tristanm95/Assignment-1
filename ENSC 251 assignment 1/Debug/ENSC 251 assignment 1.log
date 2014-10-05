@@ -1,21 +1,15 @@
-﻿Build started 04/10/2014 3:29:03 PM.
-     1>Project "H:\ENSC 251\Assignment-1\ENSC 251 assignment 1\ENSC 251 assignment 1.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Creating "Debug\ENSC 251 assignment 1.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\cpp files\Part 4\rational.cpp"
-         rational.cpp
+﻿Build started 05/10/2014 11:57:39 AM.
+     1>Project "D:\My Documents\Visual Studio Projects\ENSC  251\Assignment-1\ENSC 251 assignment 1\ENSC 251 assignment 1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\cpp files\Part 5\link.cpp"
+         link.cpp
+     1>d:\my documents\visual studio projects\ensc  251\assignment-1\cpp files\part 5\link.cpp(111): warning C4101: 'l1' : unreferenced local variable
+     1>d:\my documents\visual studio projects\ensc  251\assignment-1\cpp files\part 5\link.cpp(112): warning C4101: 'choice' : unreferenced local variable
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\ENSC 251\Assignment-1\Debug\ENSC 251 assignment 1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ENSC 251 assignment 1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\ENSC 251\Assignment-1\Debug\ENSC 251 assignment 1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\ENSC 251\Assignment-1\Debug\ENSC 251 assignment 1.lib" /MACHINE:X86 Debug\rational.obj
-         LINK : H:\ENSC 251\Assignment-1\Debug\ENSC 251 assignment 1.exe not found or not built by the last incremental link; performing full link
-         ENSC 251 assignment 1.vcxproj -> H:\ENSC 251\Assignment-1\Debug\ENSC 251 assignment 1.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"H:\ENSC 251\Assignment-1\Debug\ENSC 251 assignment 1.exe;#1" /manifest "Debug\ENSC 251 assignment 1.exe.intermediate.manifest"
-       FinalizeBuildStatus:
-         Deleting file "Debug\ENSC 251 assignment 1.unsuccessfulbuild".
-         Touching "Debug\ENSC 251 assignment 1.lastbuildstate".
-     1>Done Building Project "H:\ENSC 251\Assignment-1\ENSC 251 assignment 1\ENSC 251 assignment 1.vcxproj" (build target(s)).
+         E:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\My Documents\Visual Studio Projects\ENSC  251\Assignment-1\Debug\ENSC 251 assignment 1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\My Documents\Visual Studio Projects\ENSC  251\Assignment-1\Debug\ENSC 251 assignment 1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\My Documents\Visual Studio Projects\ENSC  251\Assignment-1\Debug\ENSC 251 assignment 1.lib" /MACHINE:X86 Debug\link.obj
+         ENSC 251 assignment 1.vcxproj -> D:\My Documents\Visual Studio Projects\ENSC  251\Assignment-1\Debug\ENSC 251 assignment 1.exe
+     1>Done Building Project "D:\My Documents\Visual Studio Projects\ENSC  251\Assignment-1\ENSC 251 assignment 1\ENSC 251 assignment 1.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.00
+Time Elapsed 00:00:00.51
